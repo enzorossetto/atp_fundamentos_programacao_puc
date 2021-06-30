@@ -17,6 +17,14 @@ public class Laptop extends Eletronico{
         this.sistemaOperacional = sistemaOperacional;
     }
 
+    public String getMarcaProcessador() {
+        return marcaProcessador;
+    }
+
+    public void setMarcaProcessador(String marcaProcessador) {
+        this.marcaProcessador = marcaProcessador;
+    }
+
     @Override
     public String toString() {
         String descricao = super.toString();
